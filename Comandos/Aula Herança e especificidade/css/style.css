@@ -1,0 +1,37 @@
+/* Seletores iguais, exceção important */
+/*
+p {
+    color: blue !important;
+}
+
+p {
+    color: red;
+}
+*/
+
+/* Se um seletor for mais específico que outro a regra mais específica
+será aplicada (terá precedência sobre regras mais gerais) */
+
+* {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h2.verde {
+    color: green;
+}
+
+h2#amarelo {
+    color: yellow;
+}
+
+
+/*
+body {
+    color: green;
+    border: 1px solid red;
+}
+*/
